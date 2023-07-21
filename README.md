@@ -31,6 +31,7 @@ PR review should enhance the following goals and values:
 - Code should conform to linting/style expectations
 - All functions/methods should have comment blocks in the standard documentation format for the language (generally docblock)
 - Unit test coverage is expected and reported
+- Commits follow semantic commits
 
 ### Review Etiquette and Expectations
 
