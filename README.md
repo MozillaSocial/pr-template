@@ -80,11 +80,12 @@ PRs should include:
   > think?"
 
 - An approval means you're confident that this PR will both do what it's supposed to do, improve the Mozilla Social codebase, and not introduce technical debt.
-- Expect to start your review within one business day of the PR going to review and complete it within another. If you can't do that, please tell the author early on.
-  As an author, expect that meaningful review may take time. If there is so much
-  urgency that the code must be checked in as soon as possible this should be
-  both an exceptional situation and you should be collaborating with your
-  reviewer (and others) during the drafting process.
+- Ideally, a review should be completed within one business day of the request. 
+   If, as the reviewer, you can't do that, proactively communicate with the author to figure out if your timeframe works.
+   If, as the author, your PR is urgent, proactively communicate with your reviewer(s) to see if review can be expedited.
+   A meaningful review takes time. As an author, you can help your reviewers provide good feedback faster by committing small, well-documented changesets.
+   Collaboration while coding can also help to both expedite, and deepen, the code review stage.
+
 
 ### Process Expectations
 
