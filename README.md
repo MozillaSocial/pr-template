@@ -74,10 +74,12 @@ PRs should include:
 
 ### Process Expectations
 
-- Most reviews will require one 👍
+- All reviews require at least one 👍. 
 - Select an appropriate reviewer for your code. If there is no one specific
   person that you would like feedback from, allow the reviewer to be
   auto-populated from the team.
+- One 👍 is sufficient for most code, but make sure to include everyone that you
+  want meaningful feedback from or you think needs to be aware of the change.
 
 Some reviews will require 2 👍, based on the characteristics of the PR. Some of these include:
 
