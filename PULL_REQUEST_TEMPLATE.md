@@ -1,6 +1,6 @@
 # Goal
 
-[JIRA Ticket](https://jira)
+[JIRA Ticket](https://jira.mozilla.com)
 
 ## What's Here
 
@@ -14,6 +14,6 @@
 
 > Is there anything special, that should be looked at?
 
-## Other References
+## References
 
 > Are there any supporting PRDs, Tech Specs, that should be linked here for future reference material?
