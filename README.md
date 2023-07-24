@@ -2,12 +2,17 @@
 
 PR reviews are we get to share and discuss code before we deliver features to our users. The review step should be meaningful, informative, interesting, and a key element of the continuous improvement of both our codebase and our relationships with each other as a team.
 
+> Note that all interactions within these repositories must adhere to the
+> [Mozilla Community Participation Guidelines](https://www.mozilla.org/en-US/about/governance/policies/participation/),
+> which broaden and supercede all guidelines and expectations here.
+
+
 ## Goals of PR review
 
 We review code in order to:
 
 - __Maintain code quality and correctness:__ Code reviews help identify and address logic errors, bugs, code style departures, and security vulnerabilities. It ensures that code being merged meets our quality standards and helps us to evolve those standards.
-- __Knowledge sharing:__ Reviews are the main forum for discussions of real code and should facilitate elevated conversations across the team. PR reviews provide an opportunity for engineers to learn from one another, share best practices, and gain insights into the different parts of the codebase.
+- __Share knowledge:__ Reviews are the main forum for discussions of real code and should facilitate elevated conversations across the team. PR reviews provide an opportunity for engineers to learn from one another, share best practices, and gain insights into the different parts of the codebase.
 - __Consistency:__ Reviews help ensure that the whole team follows the same conventions and coding standards, leading to a more readable and maintainable codebase.
 - __Collaboration and feedback:__ Code reviews provide a platform for constructive feedback, discussions, and ideas that can lead to better solutions and continuous improvement.
 - __Codebase health:__ Code reviews can help us prevent technical debt, identify risky code patterns, and discover areas for improvement in our development process and tooling.
@@ -21,10 +26,15 @@ We review code in order to:
 - Code should conform to linting/style expectations.
 - All functions/methods should have comment blocks in the standard documentation format for the language (generally docblock).
 - Ideally, all code should be checked in alongside tests that validate its
-  correctness. These should include unit tests, at a minimum. Larger features
-  should include integration tests (possibly in parallel PRs, depending on
-  feature size).
-- Use semantic commit messages.
+  correctness. These should include unit tests, at a minimum. 
+    - Test guidelines, including when to introduce larger component or
+      cross-component tests will be forthcoming.
+- Use semantic commit messages. Commit messages should be short, imperative descriptions of
+  _what_ is done in the commit:
+
+  > Unhelpful: "fix bug"
+
+  > Helpful: "prevent OOB error when key is +infinity"
 
 ### PR Format
 
@@ -52,10 +62,14 @@ PRs should include:
   it is a small change. Detailed and thorough code review improves our codebase
   over time.
 - Consider performance, security, and adherence to existing mental models and patterns.
+- Assume the best intentions of the author. Likewise, as an author, assume the
+  best intentions of reviewers.
 - Ask questions. Don't assume that you know why the author made the choices they
   did. If you see an alternative approach, or might prefer code to be written
   differently, __ask__ the author why they structured something the way that
-  they did--there might be a reason that you don't see.
+  they did--there might be a reason that you don't see. Remember that there's
+  always _multiple ways to write correct code_--try to balance _your
+  preferences_ against _style requirements_.
 - If you require a change to be made or see an issue that should be addressed,
   __explain__ the _whys_ and your suggested _hows_.
 
