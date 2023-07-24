@@ -68,5 +68,6 @@ PRs are expected to pass the following across the organization
 
 ### Next Steps
 
+- Circulate for review and comments
 - Stub out the reviewer groups
 - Implement the automated checks and thumb policies
