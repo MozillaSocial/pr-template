@@ -103,6 +103,13 @@ Some reviews will require 2 👍, based on the characteristics of the PR. Some o
 
 When a second reviewer is added, it's expected that this reviewer will be a member of a senior engineering group. The sr-eng review may add other reviewers as per their discretion.
 
+### Request and response expectations
+
+- Where will we make PR requests?
+- What is the expected response times?
+- How do we escalate requests?
+
+
 ### Automated Checks
 
 PRs are expected to pass the following across the organization
@@ -112,6 +119,7 @@ PRs are expected to pass the following across the organization
 - Unit test coverage
 - CI
 - PR Line size check
+- PR semantic format checker
 
 ### Next Steps
 
