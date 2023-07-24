@@ -44,23 +44,27 @@ PRs should include:
 
 ### Review Etiquette and Expectations
 
-- __First and foremost: use the PR forum for _contructive_ discussion.__ Discuss
+- __First and foremost: use the PR forum for _constructive_ discussion.__ Discuss
   and critique __the code, not the author.__
 - Try to understand the big picture. Where this code is going? How is it meant to serve users? How will it fit into our codebase?
 - Spend the time to read, understand, and preferably test what's in the PR--time
   spent here benefits all of us and our users. Don't rubber-stamp code, even if
   it is a small change. Detailed and thorough code review improves our codebase
   over time.
-- Consider perfomance, security, and adherence to existing mental models and patterns.
+- Consider performance, security, and adherence to existing mental models and patterns.
 - Ask questions. Don't assume that you know why the author made the choices they
   did. If you see an alternative approach, or might prefer code to be written
   differently, __ask__ the author why they structured something the way that
   they did--there might be a reason that you don't see.
 - If you require a change to be made or see an issue that should be addressed,
-  __explain__ the _whys_ and your suggested _hows_. Unhelpful: "This is a bug;
-  use `int` or at least make this `unsigned`." Helpful: "Can this overflow? I
-  believe that a player might have more than 127 lives. Lets use `int` or
-  at least `unsigned` here. What do you think?"
+  __explain__ the _whys_ and your suggested _hows_.
+
+  > __Unhelpful:__ "This is a bug; use `int` or at least make this `unsigned`." 
+
+  > __Helpful:__ "Can this overflow? I believe that a player might have more
+  > than 127 lives. Lets use `int` or at least `unsigned` here. What do you
+  > think?"
+
 - An approval means you're confident that this PR will both do what it's supposed to do, improve the Mozilla Social codebase, and not introduce technical debt.
 - Expect to start your review within one business day of the PR going to review and complete it within another. If you can't do that, please tell the author early on.
   As an author, expect that meaningful review may take time. If there is so much
