@@ -11,7 +11,7 @@ PR reviews are we get to share and discuss code before we deliver features to ou
 
 We review code in order to:
 
-- __Maintain code quality and correctness:__ Code reviews help identify and address logic errors, bugs, code style departures, and security vulnerabilities. It ensures that code being merged meets our quality standards and helps us to evolve those standards.
+- __Maintain code quality and correctness:__ Code reviews help identify and address logic errors, bugs, departures from code standards, and security vulnerabilities. It ensures that code being merged meets our quality standards and helps us to evolve those standards.
 - __Share knowledge:__ Reviews are the main forum for discussions of real code and should facilitate elevated conversations across the team. PR reviews provide an opportunity for engineers to learn from one another, share best practices, and gain insights into the different parts of the codebase.
 - __Consistency:__ Reviews help ensure that the whole team follows the same conventions and coding standards, leading to a more readable and maintainable codebase.
 - __Collaboration and feedback:__ Code reviews provide a platform for constructive feedback, discussions, and ideas that can lead to better solutions and continuous improvement.
@@ -104,6 +104,13 @@ Some reviews will require 2 👍, based on the characteristics of the PR. Some o
 
 When a second reviewer is added, it's expected that this reviewer will be a member of a senior engineering group. The sr-eng review may add other reviewers as per their discretion.
 
+### Request and response expectations
+
+- Where will we make PR requests?
+- What is the expected response times?
+- How do we escalate requests?
+
+
 ### Automated Checks
 
 PRs are expected to pass the following across the organization
@@ -113,6 +120,7 @@ PRs are expected to pass the following across the organization
 - Unit test coverage
 - CI
 - PR Line size check
+- Commit Linting
 
 ### Next Steps
 
